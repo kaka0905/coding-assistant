@@ -7,6 +7,6 @@ The web page is not deployed, on your local, you have to open the html manually 
 
 ![Screenshot](./images/screenshot1.png)
 
-Enter the code and select one mode:
+Enter the code and select one of the modes:
 
 ![Screenshot](./images/screenshot2.png)
