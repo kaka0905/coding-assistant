@@ -16,7 +16,7 @@ function explainCode() {
         type: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer <YOUR-API-KEY>"
         },
         data: JSON.stringify({
             "model": "gpt-3.5-turbo",
@@ -44,7 +44,7 @@ function extract(){
         type: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer <YOUR-API-KEY>"
         },
         data: JSON.stringify({
             "model": "gpt-3.5-turbo",
@@ -90,7 +90,7 @@ function reference(){
         type: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer <YOUR-API-KEY>"
         },
         data: JSON.stringify({
             "model": "gpt-3.5-turbo",
