@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/4.0.2/autosize.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+    
+
+<h1>AI Code Assistant</h1>
+
+<textarea class="code-box" id="code" placeholder="Enter your code here...">
+</textarea>
+
+<div class="buttonRow">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Select a Mode</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#explainCode" onclick="explainCode()">Explain</a>
+          <a href="#extractAssumption" onclick="extract()">Extract</a>
+          <a href="#sourceAndReference" onclick="reference()">Reference</a>
+          <!-- <a href="#">Link 3</a> -->
+        </div>
+    </div>
+    <!-- <button onclick="getList()" class="button-3">Select a Mode</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div> -->
+    <!-- <button class="button-3" role="button" id="explain" onclick="reference()">Reference</button> -->
+</div>
+
+<textarea readonly class="code-box" id="response">
+
+</textarea>
+
+</body>
+</html>
