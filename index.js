@@ -26,7 +26,8 @@ function explainCode() {
         success: function(response) {
             // Display the response in the response div
             var explain = response['choices'][0]['message']['content']
-            document.getElementById("response").innerText = explain;
+            var replacedString = explain.replace(/\n/g, "<br>");
+            document.getElementById("response").innerHTML=replacedString;
         },
         error: function(jqXHR, textStatus, errorThrown) {
             console.error("Error:", textStatus, errorThrown);
@@ -54,7 +55,8 @@ function extract(){
         success: function(response) {
             // Display the response in the response div
             var explain = response['choices'][0]['message']['content']
-            document.getElementById("response").innerText = explain;
+            var replacedString = explain.replace(/\n/g, "<br>");
+            document.getElementById("response").innerHTML=replacedString;
         },
         error: function(jqXHR, textStatus, errorThrown) {
             console.error("Error:", textStatus, errorThrown);
@@ -100,7 +102,8 @@ function reference(){
         success: function(response) {
             // Display the response in the response div
             var explain = response['choices'][0]['message']['content']
-            document.getElementById("response").innerText = explain;
+            var replacedString = explain.replace(/\n/g, "<br>");
+            document.getElementById("response").innerHTML=replacedString;
         },
         error: function(jqXHR, textStatus, errorThrown) {
             console.error("Error:", textStatus, errorThrown);
