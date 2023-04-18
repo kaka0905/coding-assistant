@@ -5,7 +5,5 @@ A web-application that allows users to input code and get an explanation, extrac
 # How to use it
 Before using it, please replace ```<YOUR-API-KEY>``` with your valid api key.
 The web page is not deployed, on your local, you have to open the html manually on a web browser.
-Below is a short video showing how to use the webpage:
 
-![video](./images/screen-recording.mov)
 
